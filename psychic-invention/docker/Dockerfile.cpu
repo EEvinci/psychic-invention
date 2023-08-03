@@ -1,0 +1,5 @@
+FROM soulteary/prompt-generator:base
+
+
+COPY app/webui.cpu.py ./webui.py
+CMD ["python", "webui.py"]
